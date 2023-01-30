@@ -17,6 +17,7 @@ public class Hazard : MonoBehaviour
         }
         if (other.gameObject.layer == 11)
         {
+            Debug.Log(gameObject.name + " hit " + other.gameObject.name);
             Destroy(gameObject);
         }
     }
