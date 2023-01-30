@@ -19,6 +19,8 @@ public class Patroller : MonoBehaviour
     private Transform currentPatrolPoint;
     private Transform[] patrolPoints;
 
+    
+
   
 
     void Start()
@@ -52,6 +54,8 @@ public class Patroller : MonoBehaviour
 
                 //Hide patrol point in the hierarchy
                 currentPatrolPoint.gameObject.hideFlags = HideFlags.HideInHierarchy;
+
+                
                                 
             }
             //Start patrolling at the first patrol point
