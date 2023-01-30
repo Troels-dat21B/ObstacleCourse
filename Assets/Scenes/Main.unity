@@ -669,6 +669,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42908d8645c333e419304ff60b1ea0f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trans: {fileID: 1748244180}
+  modelHolder: {fileID: 499858007}
+  patrolMoveSpeed: 30
 --- !u!114 &1748244178
 MonoBehaviour:
   m_ObjectHideFlags: 0
