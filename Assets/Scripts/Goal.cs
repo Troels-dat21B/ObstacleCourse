@@ -20,7 +20,6 @@ public class Goal : MonoBehaviour
         {
             audioSource.Play();
             Invoke("loadScene", 2f);
-            
         }
     }
 
