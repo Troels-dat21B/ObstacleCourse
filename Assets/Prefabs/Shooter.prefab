@@ -75,7 +75,7 @@ GameObject:
   - component: {fileID: 6659765022853163443}
   - component: {fileID: 518427043475295698}
   - component: {fileID: 393136870068266122}
-  - component: {fileID: 660466596818050484}
+  - component: {fileID: 9056256633121794158}
   m_Layer: 0
   m_Name: Base
   m_TagString: Untagged
@@ -157,12 +157,12 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8441195253257477664}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &660466596818050484
+--- !u!114 &9056256633121794158
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -177,6 +177,7 @@ MonoBehaviour:
   spawnPoint: {fileID: 3615760749825146944}
   projectilePrefab: {fileID: 6873967278303688276, guid: ce1d187e36d75f84dbaa9df2f9fdff65, type: 3}
   fireRate: 1
+  randomFire: 0
 --- !u!1 &8760256615036773942
 GameObject:
   m_ObjectHideFlags: 0

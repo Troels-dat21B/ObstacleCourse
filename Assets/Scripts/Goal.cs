@@ -24,6 +24,6 @@ public class Goal : MonoBehaviour
     }
 
     void loadScene(){
-        SceneManager.LoadScene("Main");
+        SceneManager.LoadScene(0);
     }
 }
